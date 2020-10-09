@@ -221,6 +221,7 @@ header {
         font-size: 15px;
     }
 
+
 body {
     background: url(/images/fredrick-tendong-nS4MKAnZgTg-unsplash.jpg) no-repeat center center fixed;
     background-size: cover;
@@ -247,6 +248,7 @@ footer {
 }
 
     footer img {
+        margin-top: 0px;
         float: right;
         height: 35px;
         width: 35px;
@@ -319,6 +321,12 @@ hr {
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
+    width: 30%;
+    display: inline-block;
+    float: left;
+    margin-left: 25px;
+    background-color: white;
+    margin-top: 15px;
 }
 
     /* On mouse-over, add a deeper shadow */
@@ -329,4 +337,57 @@ hr {
 /* Add some padding inside the card container */
 .container {
     padding: 2px 16px;
+}
+
+.classImgs {
+    height: 20em;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#classHeader {
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+}
+
+#classSection h4 {
+    font-size: 25px;
+}
+
+/*Class Table*/
+th, td {
+    padding: 15px;
+    border-spacing: 0px;
+}
+
+th {
+    text-align: center;
+    background-color: white;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.courseTableHead {
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+}
+
+#courseTables {
+    padding-top: 30em;
+}
+
+table, thead, tbody, th, tr, td {
+    border: 2px solid black;
+    outline: none;
 }
