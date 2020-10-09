@@ -98,6 +98,18 @@ a {
     float: right;
 }
 
+#adminLeftColumn {
+    width: 75%;
+    float: left;
+    border-right: 1px dashed teal;
+    box-sizing: border-box;
+}
+
+#adminRightColumn {
+    width: 25%;
+    float: right;
+}
+
 /*Home Index*/
 .aboutUs {
     float: right;
@@ -137,10 +149,10 @@ a {
         margin-top: 35px;
     }
 
-    .chooseSubSection {
-        display: inline;
-        width: 15%;
-    }
+.chooseSubSection {
+    display: inline;
+    width: 15%;
+}
 
 .chooseLeft {
     float: left;
@@ -172,7 +184,9 @@ aside h2 {
     text-align: center;
 }
 
-aside ul {
+aside li {
+    font-size: 20px;
+    padding: 15px;
 }
 
 /*Universal*/
@@ -192,12 +206,13 @@ aside {
 }
 
 header {
-    background-color: rgba(248, 248, 255, 0.7) !important;
+    background-color: white;
     padding: 25px;
-    text-align: left;    
+    text-align: left;
     font-family: Righteos, display;
     color: darkblue;
 }
+
     header h1 {
         font-size: 40px;
     }
@@ -236,3 +251,82 @@ footer {
         height: 35px;
         width: 35px;
     }
+
+/*Team Pages*/
+
+.teamInfo {
+    float: right;
+    text-align: left;
+    display: inline-block;
+    font-size: 20px;
+    clear: left;
+    margin: 2em;
+}
+
+    .teamInfo .teamImgs {
+        border-radius: 50%;
+        height: 15em;
+        width: 15em;
+        display: inline-block;
+        float: left;
+        margin-right: 2em;
+        padding-bottom: 2px;
+    }
+
+    .teamInfo h3 {
+        font-size: 25px;
+        text-decoration: underline;
+    }
+
+    .teamInfo h4 {
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+
+.teamHeader {
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+}
+
+/*Contact Page*/
+hr {
+    background-color: black;
+    border: none;
+    height: 1px;
+}
+
+.contactTitle {
+    font-size: 25px;
+}
+
+#contactInfo p {
+    font-size: 18px;
+}
+
+#contactHeader {
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+}
+
+/*Classes Page*/
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+    /* On mouse-over, add a deeper shadow */
+    .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+}
