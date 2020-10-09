@@ -1,7 +1,238 @@
-﻿/*
+﻿/*Font Family Import*/
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+/*
     This is the external Stylesheet. 
 */
 
-h1 {
-    font-size: 42px;
+
+/*Nave Bar Region Start*/
+#navbar {
+    float: right;
+    padding: 15px;
 }
+
+nav a {
+    font-weight: bold;
+    color: goldenrod;
+}
+
+nav ul {
+    background-color: darkblue;
+    border: 1px solid goldenrod;
+}
+
+nav a:hover, nav a:active, nav a:focus {
+    text-decoration: none;
+}
+
+nav li:hover {
+    background-color: darkblue;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+    nav ul li a {
+        padding: .4em 2em;
+        display: block;
+        font-size: 20px;
+    }
+
+/*Nav Bar Region End*/
+
+a {
+    text-decoration: none;
+}
+
+
+/*Team Section*/
+
+#leadershipLeftColumn {
+    width: 75%;
+    float: left;
+    border-right: 1px dashed teal;
+    box-sizing: border-box;
+}
+
+#leadershipRightColumn {
+    width: 25%;
+    float: right;
+}
+
+
+#teamsLeftColumn {
+    width: 75%;
+    float: left;
+    border-right: 1px dashed teal;
+    box-sizing: border-box;
+}
+
+#teamsRightColumn {
+    width: 25%;
+    float: right;
+}
+
+#coachesLeftColumn {
+    width: 75%;
+    float: left;
+    border-right: 1px dashed teal;
+    box-sizing: border-box;
+}
+
+#coachesRightColumn {
+    width: 25%;
+    float: right;
+}
+
+#salesTeamLeftColumn {
+    width: 75%;
+    float: left;
+    border-right: 1px dashed teal;
+    box-sizing: border-box;
+}
+
+#salesTeamRightColumn {
+    width: 25%;
+    float: right;
+}
+
+/*Home Index*/
+.aboutUs {
+    float: right;
+    text-align: left;
+    width: 60%;
+    display: inline-block;
+    font-size: 20px;
+}
+
+    .aboutUs h2 {
+        text-decoration: underline;
+        font-weight: bold;
+        font-size: 35px
+    }
+
+#aboutUsImg {
+    float: left;
+    height: 350px;
+    margin-right: 20px;
+}
+
+.chooseUs {
+    display: inline-block;
+    display: inline-block;
+    font-size: 20px;
+}
+
+    .chooseUs h1 {
+        font-weight: bold;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .chooseUs h2 {
+        font-weight: bold;
+        font-size: 30px;
+        margin-top: 35px;
+    }
+
+    .chooseSubSection {
+        display: inline;
+        width: 15%;
+    }
+
+.chooseLeft {
+    float: left;
+}
+
+.chooseRight {
+    float: right;
+}
+
+.chooseLeftImg {
+    float: left;
+    height: 475px;
+    margin-right: 20px;
+    border: 2px solid black;
+}
+
+.chooseRightImg {
+    float: right;
+    height: 475px;
+    margin-right: 20px;
+    border: 2px solid black;
+}
+
+/*Aside*/
+aside h2 {
+    background-color: darkblue;
+    color: goldenrod;
+    text-decoration: none;
+    text-align: center;
+}
+
+aside ul {
+}
+
+/*Universal*/
+.clear {
+    clear: both;
+}
+
+aside {
+    display: inline-block;
+}
+
+#logo {
+    float: left;
+    padding-right: 20px;
+    height: 10em;
+    margin-right: 20px;
+}
+
+header {
+    background-color: rgba(248, 248, 255, 0.7) !important;
+    padding: 25px;
+    text-align: left;    
+    font-family: Righteos, display;
+    color: darkblue;
+}
+    header h1 {
+        font-size: 40px;
+    }
+
+    header p {
+        font-size: 15px;
+    }
+
+body {
+    background: url(/images/fredrick-tendong-nS4MKAnZgTg-unsplash.jpg) no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+}
+
+main {
+    background-color: rgba(248, 248, 255, 0.7) !important;
+    padding: 25px;
+}
+
+#footerLinks {
+    float: right;
+    width: 25%;
+}
+
+footer {
+    font-style: italic;
+    font-size: 18px;
+    color: white;
+    text-align: left;
+    display: block;
+    border: 3px solid white;
+}
+
+    footer img {
+        float: right;
+        height: 35px;
+        width: 35px;
+    }
